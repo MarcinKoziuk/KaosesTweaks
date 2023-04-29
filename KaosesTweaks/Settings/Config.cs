@@ -27,7 +27,7 @@ namespace KaosesTweaks.Settings
         #region ModSettingsStandard
         public override string Id => SubModule.ModuleId;
         public override string FolderName => SubModule.ModuleId;
-        public string ModName => "Kaoses Tweaks";
+        public string ModName => "Kaoses Tweaks Krismar";
         public override string FormatType => "json";
         #region Translatable DisplayName 
         // Build mod display name with name and version form the project properties version

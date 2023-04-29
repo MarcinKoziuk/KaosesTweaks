@@ -55,7 +55,7 @@ namespace KaosesTweaks.Models
             float _finalNumberOfLessMemberParties = (float)-((_numberOfLessMemberParties + 1) / 2);
             float _finalNumberOfParties = _numberOfParties;
 
-            foreach (MobileParty andAttachedParty in army.LeaderPartyAndAttachedParties)
+            foreach (MobileParty andAttachedParty in army.LeaderParty.AttachedParties)
             {
                 if (andAttachedParty != army.LeaderParty)
                 {
